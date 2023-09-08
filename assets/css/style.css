@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--bg-color:#1b1e23;
+--font-color:#31aee1;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: var(--bg-color);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color: var(--font-color);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header ul li{
+   padding-right: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul li a:hover{
+    color: var(--font-color);
+    transition: .3s;
+}
+
+header button{
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid var(--font-color);
+    outline: none;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    border-radius: 8px;
+}
+
+header button:hover{
+    background-color: var(--font-color);
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.hero-section{
+    background-color: var(--bg-color);
+    color: #fff;
+    padding: 0 110px 0 180px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section__title{
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+section span{
+    color: var(--font-color);
+}
+
+.social-icons{
+    list-style: none;
+    display: flex;
+    margin: 10px 0 10px 0;
+    line-height: 30px;
+}
+
+.social-icons > li a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.social-icons li a i.fa-facebook:hover{
+    color:#1877F2 ;
+}
+
+.social-icons li a i.fa-linkedin:hover{
+    color:#0A66C2 ;
+}
+
+.social-icons li a i.fa-instagram:hover{
+    color: #feda75;
+}
+
+.social-icons li a i.fa-twitter:hover{
+    color:#00acee ;
+}
+
+.hero-section p{
+    color: #b6b6b6;
+}
+
+
+.btn{
+    padding: 10px 20px;
+    /* font-weight: bold; */
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: var(--font-color);
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.btn_1{
+    padding: 10px 15px;
+    border:1px solid var(--font-color);
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    border-radius:8px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+.btn_1:hover{
+    transform: scale(1.1);
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+.hero-about{
+    background-color: var(--bg-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 50px 120px 50px 180px;
+}
+
+.hero-about img{
+    border-radius: 50%;
+    border: 3px solid var(--font-color);
+     box-shadow:  0 0 10px 2px var(--font-color);
+}
+
+.info{
+    margin-left: 60px;
+}
+
+.hero-about_title{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.desc{
+    color: #b6b6b6;
+    margin:20px 0 20px 0;
+}
+
+.btn2{
+     padding: 8px 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: var(--font-color);
+    color:var(--bg-color);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
